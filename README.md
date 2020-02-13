@@ -1,6 +1,7 @@
 # Implementing a Stack on a Dynamic Array
-
-![](STACK.png)
+## Built With
+* [Microsoft Visual Studio](https://visualstudio.microsoft.com/pl/) - IDE
+* [C99](https://en.wikipedia.org/wiki/C99) - C Language Standard
 
 
 
