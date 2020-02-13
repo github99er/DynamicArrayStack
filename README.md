@@ -12,10 +12,10 @@ A stack is a container abstraction that maintains values in order based on their
 
 | Behavior | README |
 | ------ | ------ |
-| Push | [plugins/dropbox/README.md][PlDb] |
-| Pop | [plugins/github/README.md][PlGh] |
-| Top | [plugins/dropbox/README.md][PlDb] |
-| Empty| [plugins/github/README.md][PlGh] |
+| Push | add new element to top of the stack |
+| Pop | remove element at top of the stack |
+| Top | return element at top of the stack |
+| Empty| does the stack contain any elements |
 
 ### Real Life Stack Examples:
 ```sh
@@ -32,7 +32,7 @@ A stack is a container abstraction that maintains values in order based on their
 A static array is a container abstraction designed to hold a collection of elements that allows quick access to an element in the container. A static array has a fixed size which must be specified upon creation. A dynamic array is an abstraction of the static array, the difference being the capacity of the array is dynamically updated at runtime. Allocation at runtime allows for only necessary memory to be allocated.
 
 ### Why use a dynamic array?
-- Using a dynamic array prevents overallocation or underallocation of program memory. 
+- Using a dynamic array prevents overallocation or underallocation of program memory
 - If underallocated errors may be thrown, if overallocated then program runs slower than necessary
 
 
@@ -65,9 +65,10 @@ int dynArrayIsEmpty (struct DynArr * da)
 Compiling Methods used
 
 ```sh
-$ gcc -Wall -std=c99 -o filename filename.c -lm
--Wall = show all warnings
--std=c99 = ANSI standardized version of C99
+$ gcc -Wall -std=c99 -o filename filename.c 
+
+Wall = show all warnings
+std=c99 = ANSI standardized version of C99
 
 ```
 
