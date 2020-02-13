@@ -39,9 +39,5 @@ void pushDynArr(DynArr *v, TYPE val);
 TYPE topDynArr(DynArr *v);
 void popDynArr(DynArr *v);
 
-/* Bag Interface */	
-/* Note addDynArr is already declared above*/
-int containsDynArr(DynArr *v, TYPE val);
-void removeDynArr(DynArr *v, TYPE val);
 
 #endif
