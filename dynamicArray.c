@@ -332,62 +332,7 @@ void popDynArr(DynArr* v)
 	
 }
 
-/* ************************************************************************
-	Bag Interface Functions
-************************************************************************ */
 
-/*	Returns boolean (encoded as an int) demonstrating whether or not
-	the specified value is in the collection
-	true = 1
-	false = 0
 
-	param:	v		pointer to the dynamic array
-	param:	val		the value to look for in the bag
-	pre:	v is not null
-	pre:	v is not empty
-	post:	no changes to the bag
-*/
-int containsDynArr(DynArr* v, TYPE val)
-{
-	//pre:	v is not null
 
-	assert(v != 0);
-	//pre:	v is not empty
-
-	assert(isEmptyDynArr(v) != 1);
-	
-	for (int i = 0; i < v->size; i++) {
-		if (EQ(val, v->data[i])) {
-			return 1;
-		}
-	}
-	
-	return 0;
-}
-
-/*	Removes the first occurrence of the specified value from the collection
-	if it occurs
-
-	param:	v		pointer to the dynamic array
-	param:	val		the value to remove from the array
-	pre:	v is not null
-	pre:	v is not empty
-	post:	val has been removed
-	post:	size of the bag is reduced by 1
-*/
-void removeDynArr(DynArr* v, TYPE val)
-{
-	
-	//pre:	v is not null
-
-	assert(v != 0);
-	//pre:	v is not empty
-
-	assert(isEmptyDynArr(v) != 1);
-	for (int i = 0; i < v->size; i++) {
-		if (v->data[i] == val) {
-			removeAtDynArr(v, i);
-		}
-	}
-}
 
