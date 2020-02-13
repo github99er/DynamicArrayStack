@@ -19,7 +19,7 @@ A stack is a container abstraction that maintains values in order based on their
 
 ### Real Life Stack Examples:
 ```sh
- 1. Stack of plates     2. Stack of Glasses     3. Tennis ball packagin     4. Paper in a printer
+ 1. Stack of plates     2. Stack of Glasses     3. Tennis ball packaging     4. Paper in a printer
 ```
 # Introduction Static Array & Dynamic Array
 
@@ -40,7 +40,7 @@ A static array is a container abstraction designed to hold a collection of eleme
 ### Dynamic Array Interface (important method(s) only):
 ```sh
 void _dynArraySetCapacity (struct DynArr * da)
-→ When the capacity of a given array (da) has been reached double the given array’s current capacity
+→ When the capacity of a given array (da) has been reached, double the given array’s current capacity
 ```
 
 
