@@ -51,16 +51,16 @@ void _dynArraySetCapacity (struct DynArr * da)
 
 ```sh
 void dynArrayPush (struct DynArr * da, TYPE e) 
-→ Adds a value (e) to the top (rightmost) index of a given dynamic array (da) and has no return value.
+→ Adds a value (e) to the top (rightmost) index of a given dynamic array's (da) and has no return value.
 
 TYPE dynArrayTop (struct DynArr * da) 
-→ Given dynamic array (da)  return value TYPE (TYPE will be of Int, Double, Float, Bool, Char);
+→ Given a pointer to dynamic array (da), return the top (rightmost) element of the array
 
 void dynArrayPop (struct DynArr * da) 
-→ Given dynamic array (da) remove the top (rightmost) index of the given dynamic array (da);
+→ Given a pointer to dynamic array (da), remove the top (rightmost) index of the given dynamic array (da);
 
 int dynArrayIsEmpty (struct DynArr * da) 
-→ Given dynamic array (da) return 0 if the dynamic array contains zero elements and return 1 if not;
+→ Given a pointer to dynamic array (da), return 1 if the dynamic array contains zero elements and return 0 if not;
 ```
 
 ### Compiling Methods Used
