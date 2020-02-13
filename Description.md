@@ -34,6 +34,9 @@ A stack is a container abstraction that maintains values in order based on their
 | Size | The number of elements in the array at a given time  |
 | Capacity | The number of elements the array can hold at a given time |
 
+### Visual Dynamic Array Properties:
+![](properties.PNG)    
+
 A static array is a container abstraction designed to hold a collection of elements that allows quick access to an element in the container. A static array has a fixed size which must be specified upon creation. A dynamic array is an abstraction of the static array, the difference being the capacity of the array is dynamically updated at runtime. Allocation at runtime allows for only necessary memory to be allocated.
 
 ### Why use a dynamic array?
