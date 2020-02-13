@@ -55,13 +55,13 @@ void dynArrayPush (struct DynArr * da, TYPE e)
 → Calls _dynArraySetCapacity when attempting to push to an array at full capacity
 
 TYPE dynArrayTop (struct DynArr * da) 
-→ Given a pointer to dynamic array (da), return the top (rightmost) element of the array
+→ Given a pointer (da) to a dynamic array, return the top (rightmost) element of the dynamic array
 
 void dynArrayPop (struct DynArr * da) 
-→ Given a pointer to dynamic array (da), remove the top (rightmost) index of the given dynamic array (da);
+→ Given a pointer (da) to a dynamic array, remove the top (rightmost) index of the given dynamic array;
 
 int dynArrayIsEmpty (struct DynArr * da) 
-→ Given a pointer to dynamic array (da), return 1 if the dynamic array contains zero elements and return 0 if not;
+→ Given a pointer (da) to a dynamic array, return 1 if the dynamic array contains zero elements and return 0 if not;
 ```
 
 ### Compiling Methods Used
