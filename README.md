@@ -33,8 +33,8 @@ A stack is a container abstraction that maintains values in order based on their
 A static array is a container abstraction designed to hold a collection of elements that allows quick access to an element in the container. A static array has a fixed size which must be specified upon creation. A dynamic array is an abstraction of the static array, the difference being the capacity of the array is dynamically updated at runtime. Allocation at runtime allows for only necessary memory to be allocated.
 
 ### Why use a dynamic array?
-- Using a dynamic array prevents overallocation or underallocation of program memory
-- If underallocated errors may be thrown, if overallocated then program runs slower than necessary
+- Using a dynamic array prevents overallocation of program memory
+- If overallocated then program runs slower than necessary
 
 
 
