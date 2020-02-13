@@ -40,6 +40,20 @@ A static array is a container abstraction designed to hold a collection of eleme
 - Using a dynamic array prevents overallocation of program memory
 - If overallocated then program runs slower than necessary
 
+# Implementation and Interface
+
+- This implementation defines a dynamic array as a structure of type DynArr
+- Header File Reference(s) → [TYPE](dynArray.h)
+```sh
+struct DynArr
+{
+	TYPE *data;	/* pointer to the array containing data */
+	int size;	/* Number of elements in the array */
+	int capacity;	/* capacity of the array */
+};
+
+```
+
 
 
 ### Dynamic Array Interface (important method(s) only):
@@ -52,7 +66,7 @@ void _dynArraySetCapacity (struct DynArr * da)
 ### Stack Interface:
 
 
-Header Reference(s) → [TYPE](dynArray.h)
+
 ```sh
 void dynArrayPush (struct DynArr * da, TYPE e) 
 → Given a value (e), add (e) to the top (rightmost) index of a dynamic array given the dynamic array's pointer (da)
