@@ -13,10 +13,14 @@ A stack is a container abstraction that maintains values in order based on their
 
 | Behavior | README |
 | ------ | ------ |
-| Push | add new element to top of the stack |            ![](stack.jpg)
-| Pop | remove element at top of the stack |
+| Push | add new element to top of the stack |            
+| Pop | remove element at top of the stack |   
 | Top | return element at top of the stack |
 | Empty| does the stack contain any elements |
+
+### Visual of Stack Behaviors:
+![](stack.png)        
+
 
 ### Real Life Stack Examples:
 ```sh
