@@ -8,7 +8,7 @@
 
 # Introduction Stack Data Structure
 
-A stack is a container abstraction that maintains values in order based on their time of insertion. When a value is removed from the stack it is the value that has been most recently added to the stack In a stack abstraction the only item we are allowed to access is the topmost item. Every time we add to the stack the previous item is in-accessible while the last one added is.
+A stack is a container abstraction that maintains values in order based on their time of insertion. When a value is removed from the stack it is the value that has been most recently added to the stack. In a stack abstraction the only item we are allowed to access is the topmost item. Every time we add to the stack the previous item is in-accessible while the last one added is.
 ### Behaviors (methods) of a Stack:
 
 | Behavior | README |
@@ -24,7 +24,7 @@ A stack is a container abstraction that maintains values in order based on their
 
 ### Real Life Stack Examples:
 ```sh
- 1. Stack of plates     2. Stack of Glasses     3. Tennis ball packaging     4. Paper in a printer
+ 1. Stack of plates     2. Stack of glasses     3. Tennis ball packaging     4. Paper in a printer
 ```
 # Introduction Static Array & Dynamic Array
 
@@ -38,7 +38,7 @@ A static array is a container abstraction designed to hold a collection of eleme
 
 ### Why use a dynamic array?
 - Using a dynamic array prevents overallocation of program memory
-- If overallocated then program runs slower than necessary
+- If overallocated, then program runs slower than necessary
 
 # Implementation and Interface
 
