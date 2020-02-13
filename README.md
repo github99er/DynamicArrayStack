@@ -62,7 +62,7 @@ int dynArrayIsEmpty (struct DynArr * da)
 → Given dynamic array (da) return 0 if the dynamic array contains zero elements and return 1 if not;
 ```
 
-Compiling Methods used
+### Compiling Methods used
 
 ```sh
 $ gcc -Wall -std=c99 -o filename filename.c 
