@@ -52,7 +52,7 @@ void _dynArraySetCapacity (struct DynArr * da)
 ### Stack Interface:
 
 
-Header Reference(s) -> [TYPE](dynArray.h)
+Header Reference(s) → [TYPE](dynArray.h)
 ```sh
 void dynArrayPush (struct DynArr * da, TYPE e) 
 → Given a value (e), add (e) to the top (rightmost) index of a dynamic array given the dynamic array's pointer (da)
