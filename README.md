@@ -71,8 +71,9 @@ Wall = show all warnings
 std=c99 = ANSI standardized version of C99
 
 ```
+### Contributor
 
-Contributor - Ryan Murphy
+* **Ryan Murphy** - [Github99er](https://github.com/Github99er)
 
 #
 
