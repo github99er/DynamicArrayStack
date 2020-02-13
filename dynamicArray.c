@@ -262,11 +262,11 @@ int isEmptyDynArr(DynArr* v)
 	
 	assert(v != 0); 
 	if (sizeDynArr(v) == 0) {
-		/* FIXME:  You will change this return value*/
+		
 		return 1; 
 	}
 	else { 
-		/* FIXME:  You will change this return value*/
+		
 		return 0;
 
 	}
@@ -308,7 +308,7 @@ TYPE topDynArr(DynArr* v)
 	assert(v != 0);
 	//pre:	v is not empty
 	assert(isEmptyDynArr(v) != 1);
-	/* FIXME: You will change this return value*/
+	
 	return getDynArr(v,sizeDynArr(v)-1);
 }
 
