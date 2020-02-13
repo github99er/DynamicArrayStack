@@ -65,8 +65,10 @@ int dynArrayIsEmpty (struct DynArr * da)
 Compiling Methods used
 
 ```sh
-$ npm install --production
-$ NODE_ENV=production node app
+$ gcc -Wall -std=c99 -o filename filename.c -lm
+-Wall = show all warnings
+-std=c99 = ANSI standardized version of C99
+
 ```
 
 #
