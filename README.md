@@ -41,7 +41,7 @@ A static array is a container abstraction designed to hold a collection of eleme
 ### Dynamic Array Interface (important method(s) only):
 ```sh
 void _dynArraySetCapacity (struct DynArr * da)
-→ When the capacity of a given array (da) has been reached, double the given array’s current capacity
+→ Given a pointer (da) to a dynamic array, double the dynamic array’s current capacity
 ```
 
 
