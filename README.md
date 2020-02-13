@@ -51,7 +51,8 @@ void _dynArraySetCapacity (struct DynArr * da)
 
 ```sh
 void dynArrayPush (struct DynArr * da, TYPE e) 
-→ Adds a value (e) to the top (rightmost) index of a given dynamic array's (da) and has no return value.
+→ Adds a value (e) to the top (rightmost) index of a given dynamic array (da)
+→ Calls _dynArraySetCapacity when attempting to push to an array at full capacity
 
 TYPE dynArrayTop (struct DynArr * da) 
 → Given a pointer to dynamic array (da), return the top (rightmost) element of the array
