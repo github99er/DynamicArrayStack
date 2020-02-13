@@ -45,7 +45,7 @@ void _dynArraySetCapacity (struct DynArr * da)
 ```
 
 
-### Stack Implementation Interface:
+### Stack Interface:
 
 
 
