@@ -92,7 +92,7 @@ void deleteDynArr(DynArr* v)
 */
 void _dynArrSetCapacity(DynArr* v, int newCap)
 {
-	/* FIXME: You will write this function */
+	
 	//pre:	v is not null
 	assert(v != 0);
 	TYPE* newArry = malloc(sizeof(TYPE) * newCap);
@@ -135,7 +135,7 @@ int sizeDynArr(DynArr* v)
 void addDynArr(DynArr* v, TYPE val)
 {
 
-	/* FIXME: You will write this function */
+	
 	//pre:	v is not null
 	assert(v != 0);
 	if (v->size >= v->capacity) {
@@ -158,12 +158,12 @@ void addDynArr(DynArr* v, TYPE val)
 
 TYPE getDynArr(DynArr* v, int pos)
 {
-	/* FIXME: You will write this function */
+	
 	assert(v != 0);
 	assert (v->size != 0); 
 	assert(pos >= 0 && pos < v->size);
 
-	/* FIXME: you must change this return value */
+	
 	return v->data[pos];
 }
 
@@ -180,7 +180,7 @@ TYPE getDynArr(DynArr* v, int pos)
 */
 void putDynArr(DynArr* v, int pos, TYPE val)
 {	
-	/* FIXME: You will write this function */
+	
 	assert(v != 0);
 	assert(v->size != 0);
 	assert(pos >= 0 && pos < v->size);
@@ -199,7 +199,7 @@ void putDynArr(DynArr* v, int pos, TYPE val)
 */
 void swapDynArr(DynArr* v, int i, int  j)
 {
-	/* FIXME: You will write this function */
+	
 	//pre:	v is not null
 	assert(v != 0);
 	//pre:	v is not empty
@@ -259,7 +259,7 @@ void removeAtDynArr(DynArr* v, int idx)
 */
 int isEmptyDynArr(DynArr* v)
 {
-	/* FIXME: You will write this function */
+	
 	assert(v != 0); 
 	if (sizeDynArr(v) == 0) {
 		/* FIXME:  You will change this return value*/
@@ -284,7 +284,7 @@ int isEmptyDynArr(DynArr* v)
 void pushDynArr(DynArr* v, TYPE val)
 {
 	
-	/* FIXME: You will write this function */
+	
 	assert(v != 0);
 	v->size += 1;
 	if (v->capacity == v->size) {
@@ -303,7 +303,7 @@ void pushDynArr(DynArr* v, TYPE val)
 */
 TYPE topDynArr(DynArr* v)
 {
-	/* FIXME: You will write this function */
+	
 	//pre:	v is not null
 	assert(v != 0);
 	//pre:	v is not empty
@@ -329,7 +329,7 @@ void popDynArr(DynArr* v)
 
 	assert(isEmptyDynArr(v) != 1);
 	removeAtDynArr(v, v->size - 1);
-	/* FIXME: You will write this function */
+	
 }
 
 /* ************************************************************************
@@ -355,13 +355,13 @@ int containsDynArr(DynArr* v, TYPE val)
 	//pre:	v is not empty
 
 	assert(isEmptyDynArr(v) != 1);
-	/* FIXME: You will write this function */
+	
 	for (int i = 0; i < v->size; i++) {
 		if (EQ(val, v->data[i])) {
 			return 1;
 		}
 	}
-	/* FIXME:  You will change this return value */
+	
 	return 0;
 }
 
@@ -377,7 +377,7 @@ int containsDynArr(DynArr* v, TYPE val)
 */
 void removeDynArr(DynArr* v, TYPE val)
 {
-	/* FIXME: You will write this function */
+	
 	//pre:	v is not null
 
 	assert(v != 0);
