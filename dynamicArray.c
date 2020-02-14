@@ -18,7 +18,7 @@ struct DynArr
 /* Initialize (including allocation of data array) dynamic array.
 
 	param: 	v		pointer to the dynamic array
-	param:	cap 	capacity of the dynamic array
+	param:	cap 		capacity of the dynamic array
 	pre:	v is not null
 	post:	internal data array can hold cap elements
 	post:	v->data is not null
@@ -39,8 +39,7 @@ void initDynArr(DynArr* v, int capacity)
 	param:	cap 	desired capacity for the dyn array
 	pre:	none
 	post:	none
-	ret:	a non-null pointer to a dynArr of cap capacity
-			and 0 elements in it.
+	ret:	a non-null pointer to a dynArr of cap capacity and 0 elements in it.
 */
 DynArr* newDynArr(int cap)
 {
