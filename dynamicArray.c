@@ -1,4 +1,4 @@
-/*	dynamicArray.c: Dynamic Array implementation. */
+/*	dynamicArray.c: Dynamic Array implementation. STACK interface begins at line 248 */
 #include <assert.h>
 #include <stdlib.h>
 #include "dynArray.h"
