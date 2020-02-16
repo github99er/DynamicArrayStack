@@ -6,19 +6,20 @@
 
 
 
-# Introduction Stack Data Structure
+# Introduction To Stack Data Structure
 
-A stack is a container abstraction that maintains values in order based on their time of insertion. When a value is removed from the stack it is the value that has been most recently added to the stack. In a stack abstraction the only item we are allowed to access is the topmost item. Every time we add to the stack the previous item is in-accessible while the last one added is.
-### Behaviors (methods) of a Stack:
+A stack is a container abstraction that maintains elements in order based on their time of insertion. In a stack abstraction the only element that is accessible is the topmost element. Every time an element is inserted into the stack the previous element becomes in-accessible while the new element becomes the top. Only the topmost element can be removed from a stack.
 
-| Behavior | README |
+### Operations of a Stack:
+
+| Behavior | Description |
 | ------ | ------ |
-| Push | add new element to top of the stack |            
-| Pop | remove element at top of the stack |   
-| Top | return element at top of the stack |
-| Empty| does the stack contain any elements |
+| Push | Inserts new element to top of the stack |            
+| Pop | Removes element at top of the stack |   
+| Top | Returns element at top of the stack |
+| Empty| Checks if any elements are in the stack |
 
-### Visual of Stack Behaviors:
+### Visual of Stack Operations:
 ![](stack.png)        
 
 
@@ -26,18 +27,18 @@ A stack is a container abstraction that maintains values in order based on their
 ```sh
  1. Stack of plates     2. Stack of glasses     3. Tennis ball packaging     4. Paper in a printer
 ```
-# Introduction Static Array & Dynamic Array
+# Introduction To Static Array & Dynamic Array
 
-### Dynamic Array Properties:
-| Property | README |
+### Array Properties:
+| Property | Description |
 | ------ | ------ |
 | Size | The number of elements in the array at a given time  |
 | Capacity | The number of elements the array can hold at a given time |
 
-### Visual Dynamic Array Properties:
+### Visual of Array Properties:
 ![](properties.PNG)    
 
-A static array is a container abstraction designed to hold a collection of elements that allows quick access to an element in the container. A static array has a fixed size which must be specified upon creation. A dynamic array is an abstraction of the static array, the difference being the capacity of the array is dynamically updated at runtime. Allocation at runtime allows for only necessary memory to be allocated.
+A static array is a container abstraction designed to hold a collection of elements that allows quick access to an element in the container. A static array has a fixed capacity which must be specified upon creation. A dynamic array is an extension of the static array, the difference being the capacity of the array is dynamically updated at program runtime. Allocation at runtime allows for only necessary memory to be allocated.
 
 ### Why use a dynamic array?
 - Using a dynamic array prevents overallocation of program memory
