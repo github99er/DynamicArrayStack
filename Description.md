@@ -8,7 +8,7 @@
 [![button](SOURCE.PNG)](https://github.com/github99er/DynamicArrayStack/blob/master/dynamicArray.c)
 
 
-# Introduction To Stack Data Structure
+# Introduction to Stack Data Structure
 
 A stack is a container abstraction that maintains elements in order based on their time of insertion. In a stack abstraction the only element that is accessible is the topmost element. Every time an element is inserted into the stack the previous element becomes in-accessible while the new element becomes the top. Only the topmost element can be removed from a stack.
 
@@ -29,7 +29,7 @@ A stack is a container abstraction that maintains elements in order based on the
 ```sh
  1. Stack of plates     2. Stack of glasses     3. Tennis ball packaging     4. Paper in a printer
 ```
-# Introduction To Static Array & Dynamic Array
+# Introduction to Static Array & Dynamic Array
 
 ### Array Properties:
 | Property | Description |
