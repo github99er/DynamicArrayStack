@@ -10,7 +10,7 @@
 
 # Introduction to Stack Data Structure
 
-A stack is a container abstraction that maintains elements in order based on their time of insertion. In a stack abstraction the only element that is accessible is the topmost element. Every time an element is inserted into the stack the previous element becomes in-accessible while the new element becomes the top. Only the topmost element can be removed from a stack.
+A stack is a container abstraction that maintains elements in order based on their time of insertion. In a stack abstraction, the only element that is accessible is the topmost element. Every time an element is inserted into the stack, the previous element becomes in-accessible while the new element becomes the top. Only the topmost element can be removed from a stack.
 
 ### Operations of a Stack:
 
