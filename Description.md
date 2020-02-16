@@ -19,7 +19,7 @@ A stack is a container abstraction that maintains elements in order based on the
 | Push | Inserts new element to top of the stack |            
 | Pop | Removes element at top of the stack |   
 | Top | Returns element at top of the stack |
-| Empty| Checks if any elements are in the stack |
+| Empty| Checks if elements are in the stack |
 
 ### Visual of Stack Operations:      
 
