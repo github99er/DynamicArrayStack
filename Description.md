@@ -21,10 +21,10 @@ A stack is a container abstraction that maintains elements in order based on the
 | Top | Returns element at top of the stack |
 | Empty| Checks if any elements are in the stack |
 
-### Visual of Stack Operations:
-![](stack.png)        
+### Visual of Stack Operations:      
 
-
+![](stack.png)           |  ![](TOPSTACK.PNG)
+:-------------------------:|:-------------------------:
 ### Real Life Stack Examples:
 ```sh
  1. Stack of plates     2. Stack of glasses     3. Tennis ball packaging     4. Paper in a printer
