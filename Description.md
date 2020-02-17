@@ -14,7 +14,7 @@ A stack is a container abstraction that maintains elements in order based on the
 
 ### Operations of a Stack:
 
-**| Behavior | Description** |
+| Behavior | Description |
 | ------ | ------ |
 | Push | Inserts new element to top of the stack |            
 | Pop | Removes element at top of the stack |   
@@ -32,7 +32,7 @@ A stack is a container abstraction that maintains elements in order based on the
 # Introduction to Static Array & Dynamic Array
 
 ### Array Properties:
-**| Property** | **Description** |
+| Property | Description |
 | ------ | ------ |
 | Size | The number of elements in the array at a given time  |
 | Capacity | The number of elements the array can hold at a given time |
