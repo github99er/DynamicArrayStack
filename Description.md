@@ -5,7 +5,6 @@
 
 ###
 
-[![button](sourcebutton.png)](https://github.com/github99er/DynamicArrayStack/blob/master/dynamicArray.c)
 
 
 # Introduction to Stack Data Structure
@@ -99,6 +98,7 @@ Wall = show all warnings
 std=c99 = ANSI standardized version of C99
 
 ```
+[![button](sourcebutton.png)](https://github.com/github99er/DynamicArrayStack/blob/master/dynamicArray.c)
 ### Contributor
 
 * **Ryan Murphy** - [Github99er](https://github.com/Github99er)
