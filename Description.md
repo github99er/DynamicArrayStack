@@ -5,7 +5,7 @@
 
 ###
 
-[![button](SOURCE.PNG)](https://github.com/github99er/DynamicArrayStack/blob/master/dynamicArray.c)
+[![button](sourcebutton.png)](https://github.com/github99er/DynamicArrayStack/blob/master/dynamicArray.c)
 
 
 # Introduction to Stack Data Structure
