@@ -38,7 +38,7 @@ A stack is a container abstraction that maintains elements in order based on the
 | Capacity | The number of elements the array can hold at a given time |
 
 ### Visual of Array Properties:
-![](properties.PNG)    
+![](sizecap.png)    
 
 A **static array** is a container abstraction designed to hold a collection of elements that allows quick access to an element in the container. A static array has a fixed capacity which must be specified upon creation. 
 
