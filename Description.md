@@ -23,7 +23,7 @@ A stack is a container abstraction that maintains elements in order based on the
 
 ### Visual of Stack Operations:      
 
-![](stack.png)           |  ![](stacktop.png)
+![](stackoperations.png)           |  ![](stacktop.png)
 :-------------------------:|:-------------------------:
 ### Real Life Stack Examples:
 ```sh
