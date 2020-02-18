@@ -9,7 +9,10 @@
 
 # Introduction to Stack Data Structure
 
-In general, a container is defined as a collection of elements. A stack is a container abstraction that maintains elements in order based on their time of insertion. Stacks are primarily used when order of insertion, or removal of elements into a collection is important. In a stack abstraction, the only element that is accessible is the topmost element. Every time an element is inserted into the stack, the previous element becomes in-accessible while the new element becomes the top. Only the topmost element can be removed from a stack.
+In general, a container is defined as a collection of elements. A stack is a container abstraction that maintains elements in order based on their time of insertion. Stacks are primarily used when order of insertion, or removal of elements into a collection is important. In a stack abstraction, the only element that is accessible is the topmost element. 
+![](stacktop.png)
+
+Every time an element is inserted into the stack, the previous element becomes in-accessible while the new element becomes the top. Only the topmost element can be removed from a stack.
 
 ### Operations of a Stack:
 
