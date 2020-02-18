@@ -33,8 +33,8 @@ In general, a container is defined as a collection of elements. A stack is a con
 ### Array Properties:
 | Property | Description |
 | ------ | ------ |
-| Size | The number of elements in the array at a given time  |
-| Capacity | The number of elements the array can hold at a given time |
+| Size | The number of elements in an array at a given time  |
+| Capacity | The number of elements an array can hold at a given time |
 
 ### Visual of Array Properties:
 ![](sizecap.png)    
