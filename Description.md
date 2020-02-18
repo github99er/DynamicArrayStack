@@ -104,13 +104,12 @@ Wall = show all warnings
 std=c99 = ANSI standardized version of C99
 
 ```
-[![button](sourcebutton.png)](https://github.com/github99er/DynamicArrayStack/blob/master/dynamicArray.c)
 
 
 
-
-[![button](testFILEBUTTON.png)](https://github.com/github99er/DynamicArrayStack/blob/master/testDynArray.c)       |  ![](TESTSTACK.PNG)
-:-------------------------:|:-------------------------:
+| [![button](sourcebutton.png)](https://github.com/github99er/DynamicArrayStack/blob/master/dynamicArray.c) | **Sample Case Outputs** |
+| ------ | ------ |
+| [![button](testFILEBUTTON.png)](https://github.com/github99er/DynamicArrayStack/blob/master/testDynArray.c)   |![](TESTSTACK.PNG) |            
 ### Contributor
 
 * **Ryan Murphy** - [Github99er](https://github.com/Github99er)
