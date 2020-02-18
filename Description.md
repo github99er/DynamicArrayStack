@@ -29,7 +29,15 @@ Every time an element is inserted into the stack, the previous element becomes i
 :-------------------------:|:-------------------------:
 ### Real Life Stack Examples:
 ```sh
- 1. Back Button     2. Stack of plates     3. Stack of glasses     4. Tennis ball packaging     5. Paper in a printer 
+ 1. Back Button 
+ 
+ 2. Stack of plates 
+ 
+ 3. Stack of glasses    
+ 
+ 4. Tennis ball packaging  
+ 
+ 5. Paper in a printer 
 ```
 ### Introduction to Static Array & Dynamic Array:
 
