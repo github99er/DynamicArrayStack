@@ -48,7 +48,7 @@ A **dynamic array** is an extension of the static array, the difference being th
 
 ### Why use a dynamic array?
 - Using a dynamic array prevents overallocation of program memory
-- If overallocated, then program runs slower than necessary
+- If overallocated, a program runs slower than necessary
 
 ### Dynamic Array Speed Limitation ###
 Time complexity describes the time it takes for an operation to execute. The stack operation's pop, contains, and empty share the same time complexity regardless of if they are implemented onto a dynamic, or static array. The time complexity these operations share is constant time. Constant time is essentially the fastest execution time an operation can have.
