@@ -1,7 +1,5 @@
 /* testDynArray.c
- * This file is used for testing the dynamicArray.c file. 
- * This test suite is by no means complete or thorough.
- * More testing is needed on your own.
+ * This file is used for testing dynamicArray.c . 
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,7 +16,7 @@ void assertTrue(int predicate, char *message)
 }
 
 
-// this main function contains some
+
 int main(int argc, char* argv[]){
 
 	DynArr *dyn;
