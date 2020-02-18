@@ -69,7 +69,7 @@ struct DynArr
 
 
 
-### Dynamic Array Interface (important method(s) only):
+### Dynamic Array Interface (relevant operations only):
 ```sh
 void _dynArraySetCapacity (struct DynArr * da)
 → Given a pointer (da) to a dynamic array, double the dynamic array’s current capacity
