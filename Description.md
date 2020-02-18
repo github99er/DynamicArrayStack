@@ -90,7 +90,7 @@ void dynArrayAdd (struct DynArr * da, TYPE e)
 → Given a pointer (da) to a dynamic array, and a value (e), insert (e) at the end of the dynamic array
 
 void dynArrayRemoveAt (struct DynArr * da, int position)
-→ Given a pointer (da) to a dynamic array, remove the value stored at the position
+→ Given a pointer (da) to a dynamic array, remove the value stored at position
 
 TYPE dynArrayGet (struct DynArr * da, int position)
 → Given a pointer (da) to a dynamic array, return the element stored at position
