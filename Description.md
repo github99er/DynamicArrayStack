@@ -47,12 +47,13 @@ Every time an element is inserted into the stack, the previous element becomes i
 | Size | The number of elements in an array at a given time  |
 | Capacity | The number of elements an array can hold at a given time |
 
-### Visual of Array Properties:
-![](sizecap.png)    
-
 A **static array** is a container abstraction designed to hold a collection of elements that allows quick access to an element in the container. A static array has a fixed capacity which must be specified upon creation. 
 
 A **dynamic array** is an extension of the static array, the difference being the capacity of the array is dynamically updated at program runtime. Runtime is the time it takes for a processor to execute machine level code. Allocation at runtime allows for only necessary memory to be allocated.
+
+### Visual of Array Properties:
+![](sizecap.png)    
+
 
 ### Why use a dynamic array?
 - Using a dynamic array prevents overallocation of program memory
