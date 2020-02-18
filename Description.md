@@ -21,7 +21,7 @@ Every time an element is inserted into the stack, the previous element becomes i
 | Push | Inserts new element to top of the stack |            
 | Pop | Removes element at top of the stack |   
 | Top | Returns element at top of the stack |
-| Empty| Checks if elements are in the stack |
+| IsEmpty| Checks if elements are in the stack |
 
 ### Visual of Stack Operations:      
 
@@ -60,7 +60,7 @@ A **dynamic array** is an extension of the static array, the difference being th
 - If overallocated, a program runs slower than necessary
 
 ### Dynamic Array Speed Limitation:
-Time complexity describes the time it takes for an operation to execute. The stack operation's pop, top, and empty share the same time complexity regardless of if they are implemented onto a dynamic, or static array. The time complexity these operations share is constant time. Constant time is essentially the fastest execution time an operation can have.
+The time it takes for an operation to execute is described as time complexity. The stack operation's pop, top, and IsEmpty share the same time complexity regardless of if they are implemented onto a dynamic, or static array. The time complexity these operations share is constant time. Constant time is essentially the fastest execution time an operation can have.
 
 For a dynamic array to correctly update capacity, a temporary array must be created with the updated capacity. Then the intial array's elements must be copied into the temorary array. Finally, the temporary array replaces the intial array. This causes a push operation on a dynamic array with a full capacity to execute at linear time. Linear time is slower than constant time, however, a dynamic array's push operation only runs at linear time when capacity is equivalent to size. On average, push will execute at constant time, but has the chance to execute at linear time.
 
