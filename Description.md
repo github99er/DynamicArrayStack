@@ -69,12 +69,7 @@ struct DynArr
 
 
 
-### Dynamic Array Interface (Stack IMPORTANT):
-```sh
-void _dynArraySetCapacity (struct DynArr * da)
-→ Given a pointer (da) to a dynamic array, double the dynamic array’s current capacity
-```
-### Dynamic Array Interface Continued
+### Dynamic Array Interface
 ```sh
 
 void dynArrayInit (struct DynArr * da, int initialCapacity)
@@ -98,7 +93,11 @@ TYPE dynArrayGet (struct DynArr * da, int position)
 void dynArrayPut (struct DynArr * da, int position, TYPE value)
 → Given a pointer (da) to a dynamic array, and a value (e), insert (e) into the dynamic array at position
 ```
-
+### Dynamic Array Interface (Operations Affecting Program Runtime):
+```sh
+void _dynArraySetCapacity (struct DynArr * da)
+→ Given a pointer (da) to a dynamic array, double the dynamic array’s current capacity
+```
 ### Stack Interface:
 
 
