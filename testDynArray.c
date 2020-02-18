@@ -77,6 +77,6 @@ int main(int argc, char* argv[]){
 	removeDynArr(dyn, 3);
 	printf("Removing 3...\nThe stack's content: [6,5,9]\n");
 	
-     deleteDynArr(dyn); 
+     	deleteDynArr(dyn); 
 	return 0;
 }
