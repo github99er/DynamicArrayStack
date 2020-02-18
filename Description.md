@@ -68,6 +68,7 @@ For a dynamic array to correctly update capacity, a temporary array must be crea
 # Implementation and Interface:
 
 - This implementation defines a dynamic array as a structure of type DynArr
+- A pointer is an address that points towards a specific value, or in this case element
 - Header File Reference(s) → [TYPE](dynArray.h)
 ```sh
 struct DynArr
