@@ -73,17 +73,9 @@ int main(int argc, char* argv[]){
 	printf("Pushing 9...\nThe stack's content: [3,6,5,9] <- top\n");
 	assertTrue(EQ(topDynArr(dyn), 9), "Test topDynArr == 9");
 	
-	printf("\n\nTesting bag interface...\n");
-	printf("The bag's content: [3,6,5,9]\n");
-	assertTrue(containsDynArr(dyn, 3), "Test containing 3");
-	assertTrue(containsDynArr(dyn, 6), "Test containing 6");
-	assertTrue(containsDynArr(dyn, 5), "Test containing 5");
-	assertTrue(containsDynArr(dyn, 9), "Test containing 9");
-	assertTrue(!containsDynArr(dyn, 7), "Test not containing 7");
 	
 	removeDynArr(dyn, 3);
 	printf("Removing 3...\nThe stack's content: [6,5,9]\n");
- 	assertTrue(!containsDynArr(dyn, 3), "Test not containing 3");
 	
      deleteDynArr(dyn); 
 	return 0;
