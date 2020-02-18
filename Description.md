@@ -87,16 +87,16 @@ int dynArraysize (struct DynArr * da)
 → Given a pointer (da) to a dynamic array, return how many elements are in the dynamic array
 
 void dynArrayAdd (struct DynArr * da, TYPE e)
-→ Given a pointer (da) to a dynamic array, and a value (e), insert the value at the end of the dynamic array
+→ Given a pointer (da) to a dynamic array, and a value (e), insert (e) at the end of the dynamic array
 
 void dynArrayRemoveAt (struct DynArr * da, int position)
-→ Given a pointer (da) to a dynamic array, remove the value stored at the given position
+→ Given a pointer (da) to a dynamic array, remove the value stored at the position
 
 TYPE dynArrayGet (struct DynArr * da, int position)
-→ Given a pointer (da) to a dynamic array, return the element stored at the given position
+→ Given a pointer (da) to a dynamic array, return the element stored at position
 
 void dynArrayPut (struct DynArr * da, int position, TYPE value)
-→ Given a pointer (da) to a dynamic array, and a value (e), insert the value into the dynamic array at the given position
+→ Given a pointer (da) to a dynamic array, and a value (e), insert (e) into the dynamic array at position
 ```
 
 ### Stack Interface:
