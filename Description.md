@@ -41,8 +41,8 @@ Every time an element is inserted into the stack, the previous element becomes i
 ```
 ### Introduction to Static Array & Dynamic Array:
 
-Array Properties:
-| Property | Description |
+
+| Array Properties | Description |
 | ------ | ------ |
 | Size | The number of elements in an array at a given time  |
 | Capacity | The number of elements an array can hold at a given time |
