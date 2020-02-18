@@ -7,7 +7,7 @@
 
 
 
-# Introduction to Stack Data Structure
+### Introduction to Stack Data Structure:
 
 In general, a container is defined as a collection of elements. A stack is a container abstraction that maintains elements in order based on their time of insertion. Stacks are primarily used when order of insertion, or removal of elements into a collection is important. In a stack abstraction, the only element that is accessible is the topmost element. 
 ![](stacktop.png)
@@ -31,9 +31,9 @@ Every time an element is inserted into the stack, the previous element becomes i
 ```sh
  1. Back Button     2. Stack of plates     3. Stack of glasses     4. Tennis ball packaging     5. Paper in a printer 
 ```
-# Introduction to Static Array & Dynamic Array
+### Introduction to Static Array & Dynamic Array:
 
-### Array Properties:
+Array Properties:
 | Property | Description |
 | ------ | ------ |
 | Size | The number of elements in an array at a given time  |
@@ -50,13 +50,13 @@ A **dynamic array** is an extension of the static array, the difference being th
 - Using a dynamic array prevents overallocation of program memory
 - If overallocated, a program runs slower than necessary
 
-### Dynamic Array Speed Limitation ###
-Time complexity describes the time it takes for an operation to execute. The stack operation's pop, contains, and empty share the same time complexity regardless of if they are implemented onto a dynamic, or static array. The time complexity these operations share is constant time. Constant time is essentially the fastest execution time an operation can have.
+### Dynamic Array Speed Limitation:
+Time complexity describes the time it takes for an operation to execute. The stack operation's pop, top, and empty share the same time complexity regardless of if they are implemented onto a dynamic, or static array. The time complexity these operations share is constant time. Constant time is essentially the fastest execution time an operation can have.
 
 For a dynamic array to correctly update capacity, a temporary array must be created with the updated capacity. Then the intial array's elements must be copied into the temorary array. Finally, the temporary array replaces the intial array. This causes a push operation on a dynamic array with a full capacity to execute at linear time. Linear time is slower than constant time, however, a dynamic array's push operation only runs at linear time when capacity is equivalent to size. On average, push will execute at constant time, but has the chance to execute at linear time.
 
 
-# Implementation and Interface
+# Implementation and Interface:
 
 - This implementation defines a dynamic array as a structure of type DynArr
 - Header File Reference(s) → [TYPE](dynArray.h)
@@ -72,7 +72,7 @@ struct DynArr
 
 
 
-### Dynamic Array Interface
+### Dynamic Array Interface:
 ```sh
 
 void dynArrayInit (struct DynArr * da, int initialCapacity)
@@ -120,7 +120,7 @@ int dynArrayIsEmpty (struct DynArr * da)
 → Given a pointer (da) to a dynamic array, return 1 if the dynamic array contains zero elements and return 0 if not
 ```
 
-### Compiling Methods Used
+### Compiling Methods Used:
 
 ```sh
 $ gcc -Wall -std=c99 -o filename filename.c 
