@@ -9,11 +9,11 @@
 
 ### Introduction to Stack Data Structure:
 
-A stack is a container abstraction that maintains elements in order based on their time of insertion. In general, a container is defined as a collection of elements. Stacks are primarily used when order of insertion, or removal of elements into a collection is important. In a stack abstraction, the only element that is accessible is the topmost element.
+A stack is a container abstraction that maintains elements in order based on their time of insertion. In general, a container is defined as a collection of elements. Stacks are primarily used when the order of insertion or removal of elements into a collection is essential. In a stack abstraction, the only element that is accessible is the topmost element.
 <br></br>
 ![](stacktop.png)
 
-Every time an element is inserted into the stack, the previous element becomes in-accessible while the new element becomes the top. Only the topmost element can be removed from a stack.
+Whenever an element is inserted into the stack, the previous element becomes in-accessible while the new element becomes the top. Only the topmost element can be removed from a stack.
 
 ### Operations of a Stack:
 
@@ -48,9 +48,9 @@ Every time an element is inserted into the stack, the previous element becomes i
 | Size | The number of elements in an array at a given time  |
 | Capacity | The number of elements an array can hold at a given time |
 
-A **static array** is a container abstraction designed to hold a collection of elements that allows quick access to an element in the container. A static array has a fixed capacity which must be specified upon creation. 
+A **static array** is a container abstraction designed to hold a collection of elements that allows quick access to an element in the container. A static array has a fixed capacity, which must be specified upon creation. 
 
-A **dynamic array** is an extension of the static array, the difference being the capacity of the array is dynamically updated at program runtime. Runtime is the time it takes for a processor to execute machine level code. Allocation at runtime allows for only necessary memory to be allocated.
+A **dynamic array** is an extension of the static array. The difference is that the array's capacity is dynamically updated at program runtime. Runtime is the time it takes for a processor to execute machine-level code. Allocation at runtime allows for only necessary memory to be allocated.
 
 ### Visual of Array Properties:
 ![](sizecap.png)    
@@ -61,9 +61,9 @@ A **dynamic array** is an extension of the static array, the difference being th
 - If overallocated, a program runs slower than necessary
 
 ### Dynamic Array Speed Limitation:
-The time it takes for an operation to execute is described as time complexity. The stack operation's pop, top, and IsEmpty share the same time complexity regardless of if they are implemented onto a dynamic, or static array. The time complexity these operations share is constant time. Constant time is essentially the fastest execution time an operation can have.
+The time it takes for an operation to execute is described as time complexity. The stack operation's pop, top, and IsEmpty share the same time complexity regardless of if they are implemented onto a dynamic or static array. The time complexity these operations share is constant time. Constant time is essentially the fastest execution time an operation can have.
 
-For a dynamic array to correctly update capacity, a temporary array must be created with the updated capacity. Then the intial array's elements must be copied into the temorary array. Finally, the temporary array replaces the intial array. This causes a push operation on a dynamic array with a full capacity to execute at linear time. Linear time is slower than constant time, however, a dynamic array's push operation only runs at linear time when capacity is equivalent to size. On average, push will execute at constant time, but has the chance to execute at linear time.
+A temporary array must be created with the updated capacity for a dynamic array to correctly update capacity. Then the initial array's elements must be copied into the temporary array. Finally, the temporary array replaces the initial array. This causes a push operation on a dynamic array with a full capacity to execute at a linear time. Linear time is slower than constant time. However, a dynamic array's push operation only runs at a linear time when capacity is equivalent to size. On average, a push operation will execute at a constant time but has the chance to execute at a linear time.
 
 ![](TIMECOMPLEX.png)
 
